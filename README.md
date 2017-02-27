@@ -33,8 +33,7 @@ To start a web server for the application, run:
 ## Future Features
 
 - Deleting stuff might be nice
-- `recur` is supposed to pre-map the event a handful of times in the future so you don't have to manually put in 'team standup at 2:30' everyday, but it doesn't do that yet
-- 
+- ```"recur":true``` in the map is supposed to pre-map the event a handful of times in the future so you don't have to manually put in 'team standup at 2:30' everyday, but it doesn't do that yet
 
 ## License
 
