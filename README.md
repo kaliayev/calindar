@@ -18,7 +18,7 @@ This is all accomplished by throwing a ```POST``` to the ```/add``` endpoint, wi
 
 These then get pulled out and sorted as a defacto todo-list on a ```GET /today```, and built as an org-mode file in ```resources/org-files/{{date}}.org``` if you're into emacs.
 
-![](resources/public/calendar_terminal.png)
+![](resources/public/calindar_terminal.png)
 
 ## Prerequisites
 
@@ -38,4 +38,6 @@ To start a web server for the application, run:
 
 ## License
 
-Copyright © 2017
+MIT License
+
+Copyright © 2017 Calin Fraser
