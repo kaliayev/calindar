@@ -16,7 +16,7 @@ This is all accomplished by throwing a ```POST``` to the ```/add``` endpoint, wi
  "recur":false}
 ```
 
-These then get pulled out and sorted as a defacto todo-list on a ```GET /today```, and built as an org-mode file in ```resources/org-files/{{date}}.org``` if you're into emacs.
+These then get pulled out and sorted as a defacto todo-list on a ```GET /todos?date=today```, and built as an org-mode file in ```resources/org-files/{{date}}.org``` if you're into emacs.
 
 ![](resources/public/calindar_terminal.png)
 
